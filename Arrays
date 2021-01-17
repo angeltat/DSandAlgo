@@ -1,0 +1,13 @@
+Arrays
+
+PRO
+
+- look ups
+- fast push and pop methods
+- ordered
+
+CONS
+
+- slow inserts
+- slow delete
+- fixed size 

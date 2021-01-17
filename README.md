@@ -2,7 +2,7 @@
 
 	This repo is for Data Structers and Algorithms
 
-Just a easy "compiler".
+Just an easy JavaScript "compiler".
 
 1. Clone the repo
 2. Open index.html
