@@ -11,3 +11,5 @@ Just an easy JavaScript "compiler".
 5. Save script.js
 6. Refresh index.html
 7. Voila, all your functions are there
+
+PS: IF YOU WANT FOR YOUR FUNCTION TO DISPLAY DIRECTLY, WRAP THEM IN CONSOLE.LOG(YOUR FUNCTION)

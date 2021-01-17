@@ -1,0 +1,16 @@
+Hash Tables
+
+set a key and value - pair
+ex: basket.grapes = 1000
+key - "grapes"
+value - 1000
+
+Time complexity
+
+insert O(1)
+lookup O(1)
+delete O(1)
+search O(1)
+
+PRO
+- quick access to certain values

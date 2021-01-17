@@ -11,3 +11,11 @@ CONS
 - slow inserts
 - slow delete
 - fixed size 
+
+Time Complexity:
+
+search O(n)
+lookup O(1)
+push 0(1)
+insert O(n)
+delete O(n)
