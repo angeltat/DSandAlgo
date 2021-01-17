@@ -78,5 +78,28 @@ myHashTable.keys();
 // Given array = [2,1,1,2,3,5,1,2,4] should return 1
 // Given array = [2,3,4,5] should return undefined
 
+function naiveRecuringNumber (input){
+	//We asume that the input is valid
+	for(let i =0; i< input.length; i++){
+		for (let j = i + 1 ; j< input.length; j++){
+			if(input[i] === input[j]){
+				return input[j];
+			}
+		}
+	}
+	return undefined;
+} // O(n^2)
 
+
+function recuringNumber (array){
+	let myObj = {};
+	for (let i = 0; i < array.length; i++ ){
+		if(myObj[array[i]] !== undefined){
+			return array[i];
+		}else{
+			myObj[array[i]] = i;
+		}
+	}
+	return undefined;
+} // O(n)
 

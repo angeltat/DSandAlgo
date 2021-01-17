@@ -14,3 +14,10 @@ search O(1)
 
 PRO
 - quick access to certain values
+- fast lookups (but good collision resolution needed)
+- fast inserts
+- flexible keys
+
+CONS
+- unordered
+- slow key iteration
